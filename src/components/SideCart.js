@@ -13,7 +13,7 @@ export default function SideCart() {
               {cart.map((item) => {
                 return (
                   <li key={item.id} className="cart-item mb-4">
-                    <img src={`../${item.image}`} width="35" alt="cart item" />
+                    <img src={item.image} width="35" alt="cart item" />
                     <div className="mt-3">
                       <h6 className="text-uppercase">{item.title}</h6>
                       <h6 className="text-uppercase text-capitalize text-title">
@@ -25,7 +25,7 @@ export default function SideCart() {
               })}
             </ul>
             <h4 className="text-capitalize text-main">
-              cart total : $ {cartTotal}
+              cart total : &#x20B9; {cartTotal}
             </h4>
             <div className="text-center my-5">
               <Link to="/cart" className="main-link">

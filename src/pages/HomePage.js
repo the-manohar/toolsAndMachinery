@@ -8,7 +8,7 @@ import "../App.css";
 export default function HomePage() {
   return (
     <>
-      <Hero title="awesome gadgets" max="true">
+      <Hero title="TOOLS & MACHINERY" max="true">
         <Link
           to="/products"
           className="main-link"

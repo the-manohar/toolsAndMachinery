@@ -12,8 +12,8 @@ function Footer() {
               <div className="row">
                 <div className="col-md-6">
                   <p className="text-capitalize">
-                    copyright &copy; tech store {new Date().getFullYear()}. all
-                    rights reserved.
+                    copyright &copy; Tools & MACHINERY{" "}
+                    {new Date().getFullYear()}. all rights reserved.
                   </p>
                 </div>
                 <div className="col-md-6 d-flex justify-content-around">

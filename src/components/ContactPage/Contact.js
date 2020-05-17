@@ -7,7 +7,11 @@ function Contact() {
       <div className="row">
         <div className="col-10 mx-auto col-md-6 my-3">
           <Title title="contact us" center />
-          <form className="mt-5">
+          <form
+            action="https://formspree.io/xdowaeev"
+            className="mt-5"
+            method="POST"
+          >
             <div className="form-group">
               <input
                 type="text"
@@ -38,6 +42,13 @@ function Contact() {
                 className="form-control"
                 rows="10"
                 placeholder="Message"
+              />
+            </div>
+            <div clclassName="form-group mt-3">
+              <input
+                type="submit"
+                value="Send"
+                className="form-control bg-primary text-white mt-4"
               />
             </div>
           </form>
